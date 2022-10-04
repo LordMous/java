@@ -1,0 +1,39 @@
+package jacvavaavava;
+
+public class Jacvavaavava {
+
+     public static void main(String[] args) {
+         //1.feladat
+         String nev = "Csatlos Szabolcs";
+        
+         //2feldat
+         System.out.println(!nev.isBlank()); 
+        
+         //3feladat
+         System.out.println("Hello"+nev);
+         System.out.println(nev.concat("Hello"));
+        
+         //4feladat
+         System.out.println(nev.contains("A"));
+         
+         //5feladat
+         System.out.println(nev.endsWith("id"));
+         System.out.println(nev.endsWith("or"));
+         
+         //6feladat
+         String neev = nev.toUpperCase();
+         System.out.println(neev.charAt(neev.length()-2));
+         
+         //7feladat
+         System.out.println(neev.replace("A", "Aa"));
+         
+         //8feladat
+         System.out.println(nev.charAt(nev.length()/2));
+         
+         //9feladat
+         System.out.println(nev.contains("d") ? "talalhato":"Nem talalhato");
+         
+         
+    }
+    
+}
