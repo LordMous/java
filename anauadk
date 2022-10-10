@@ -33,6 +33,8 @@ public class JavaApplication2 {
         String s = sc.nextLine();
         System.out.println(s.contains("a") ? s.charAt(s.indexOf("a")) + "" + s.charAt(s.indexOf("a") + 1) : "nincs benne a betű");
         
+        String s = "Csatlós Szabolcs";
+        System.out.println(!s.isBlank() +" "+ s.isEmpty());
         
     }
     
