@@ -36,6 +36,52 @@ public class JavaApplication2 {
         String s = "Csatlós Szabolcs";
         System.out.println(!s.isBlank() +" "+ s.isEmpty());
         
+        
+            /*
+        String s = sc.nextLine();
+        char a = sc.next().charAt(0);
+        System.out.println(String.valueOf(a).concat(s));
+        */
+
+        /*
+        int i1 = sc.nextInt();
+        int i2 = sc.nextInt();
+        System.out.println(i1+""+i2);
+        */
+
+        /*
+        String s = sc.nextLine();
+        System.out.println(s.substring(0, s.length()/2));
+        System.out.println(s.substring(s.length()/2, s.length()));
+        */
+
+        /*
+        String s =sc.nextLine();
+        char a = sc.next().charAt(0);
+        System.out.println(s.endsWith(String.valueOf(a)));
+        */
+
+        /*
+        String szo = "Szabolcs ";
+        System.out.println(!szo.isBlank()+" "+szo.isEmpty());
+         */
+
+
+        /*
+        short s1 = sc.nextShort();
+        short s2 = sc.nextShort();
+        System.out.println(s1+1+","+(s2+1));
+
+        byte b1 = sc.nextByte();
+        byte b2 = sc.nextByte();
+        System.out.println(b1 ^ b2);
+        */
+
+
+        String s = sc.nextLine();
+        char a = sc.next().charAt(0);
+        System.out.println(s.replace(String.valueOf(a), String.valueOf(a).toUpperCase()));
+
     }
     
 }
