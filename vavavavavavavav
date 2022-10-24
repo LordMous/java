@@ -1,0 +1,48 @@
+        int i1 = 1;
+        while(i1 <= 10){
+            System.out.println(i1);
+            i1++;
+        }
+
+        int i2 = 1;
+        do{
+            System.out.println(i2++);
+        }while (i2 <= 10);
+
+
+        int ossz = 0;
+        int i3 = sc.nextInt();
+        while(i3 != 0){
+            i3 = sc.nextInt();
+            ossz += ossz+i3;
+        }
+        System.out.println(ossz);
+
+
+
+        int ran;
+        int ossz = 0;
+        while(ossz <= 100){
+            ran = (int) Math.floor(Math.random()*10+1);
+            System.out.println(ran);
+            ossz = ossz+ran;
+        }
+        System.out.println(ossz);
+
+
+
+        int ran = (int) Math.floor(Math.random()*10+1);
+        while(ran !=10){
+            ran = (int) Math.floor(Math.random()*10+1);
+            System.out.println(ran);
+        }
+
+        */
+        String szo = "";
+        char c = sc.next().charAt(0);
+        while (c != 'x'){
+            szo+=c;
+            System.out.println(szo);
+            c = sc.next().charAt(0);
+        }
+        System.out.println(szo);
