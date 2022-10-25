@@ -1,0 +1,52 @@
+//1.feladat
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        if(a % 2 != 0 || b %2 != 0){
+            System.out.println("Van benne");
+        }else{
+            System.out.println("Nincs benne");
+        }
+
+
+        //2.feladat
+        char c1 = sc.next().charAt(0);
+        char c2 = sc.next().charAt(0);
+        if(c1 < c2){
+            System.out.println("Az elso van elobb");
+        }else{
+            System.out.println("A masodik van elobb");
+        }
+
+        int a = sc.nextInt();
+        if(a < 0 || a > 100){
+            System.out.println("Nem megfelelo pontszam");
+        }else if(a >=90){
+            System.out.println("Otos lett batya");
+        }else if (a < 90 && a >= 70){
+            System.out.println("Negyes lett");
+        }else if (a < 70 && a >= 50){
+            System.out.println("Harmas lett");
+        }else if (a <= 50 && a >=30){
+            System.out.println("Kettes lett sajna");
+        }else{
+            System.out.println("Egyes");
+        }
+
+
+        int db = 0;
+        int i = 1;
+        do {
+            if (i % 3 ==0){
+                System.out.println(i);
+                db = db+1;
+            }
+            i = i + 1;
+        }while (db < 10);
+        */
+
+        int a = (int) Math.floor(Math.random()*10+1);
+        System.out.println(a);
+        int i = sc.nextInt();
+        while(i != a){
+            i = sc.nextInt();
+        }
